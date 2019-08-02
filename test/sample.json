@@ -1,0 +1,750 @@
+{
+  "name": "USA Men's National Team Exhibition vs. Spain",
+  "active": true,
+  "type": "event",
+  "id": "vv170Z4JGkwbqwCm",
+  "test": false,
+  "url": "https://www.ticketmaster.com/usa-mens-national-team-exhibition-vs-anaheim-california-08-16-2019/event/0900566C987723AE",
+  "source": {
+    "name": "ticketmaster",
+    "id": "0900566C987723AE"
+  },
+  "references": {
+    "ticketmaster-us": "0900566C987723AE"
+  },
+  "locale": "en-us",
+  "extensions": {
+    "ticketmaster": {
+      "edb": {
+        "epTime": "19:00:00",
+        "epDateTime": "2019-08-17T02:00:00Z",
+        "internetSalesDisableDateTime": "2019-08-17T02:00:00Z",
+        "epDate": "2019-08-16"
+      },
+      "host": {
+        "eventCode": "EAA0816",
+        "ticketsReadyOffset": 0,
+        "ticketsReadyOffsetMobileOverride": 0,
+        "seriesMaster": false,
+        "eventType": "STANDARD",
+        "eventHost": "LA1"
+      },
+      "secureEntry": {
+        "retEnabled": false
+      },
+      "eventbase": {
+        "organizationIds": [
+          "132A1203-A6D6-40B6-A184-9AED52439EA9",
+          "14695E91-8414-41D7-9115-2316DC7EC6F3",
+          "16ADCBA9-3283-48F3-A3AD-1CEAC35BE7D4",
+          "1949B566-01EA-4B0D-B316-206DA0A4493D",
+          "19D004E9-ABD3-4B05-AB39-29B89608BA46",
+          "201551DB-D501-463D-9C80-1864F6FF68FA",
+          "2480E3BB-DDBE-4E89-832E-17BC532ED790",
+          "2E05AC40-A668-490B-BC45-E40B83FEEF84",
+          "2FB2EA48-2693-486B-BA6D-5AF5B312EE26",
+          "34AD2A5A-EB16-43FB-A4B1-A041CD1F45E8",
+          "34DCBA72-452F-4159-9B34-172236BB8DE7",
+          "39924FEE-A350-4361-9C17-1A08FFC30EB0",
+          "3A32A7F0-9623-476C-8EFF-D8774E98D939",
+          "5143CEE6-88B2-4215-8528-E813DEFA7DED",
+          "522A0D39-E961-46D1-AE5E-43724FEF4194",
+          "54BA0959-E7F9-45A3-9C17-650DA2DDAA81",
+          "56710260-3121-4F24-80AB-13DDDAA03360",
+          "61F859F2-401F-488A-98A8-BBA6C303601A",
+          "7211FCCA-D414-415A-9F72-4AC93CF9D96C",
+          "9109F785-1BDE-491C-A8A9-1559DB7E8EC8",
+          "A6F38F97-459C-4AD4-B277-B2F31FC5F450",
+          "B2118E2C-615C-4F26-8115-B4EB1E211AD9",
+          "BB9F57E6-7DF0-4697-A231-F357BFAA64D3",
+          "BF408174-9754-4630-B0F1-E22B0884DD50",
+          "D18228A4-09AD-47DA-ABB3-CB97911AC391",
+          "DB984956-5A23-4062-A557-FB8E5D2298AD",
+          "E1DF37C7-0904-40F8-AE2B-4232DF16BEF2",
+          "FDE8A6F4-4AAA-4004-B544-3F86E89D1B71"
+        ]
+      }
+    }
+  },
+  "lastUpdate": 1564447049555,
+  "entityChanges": {
+    "newlyCreated": false,
+    "changes": [
+      "attractions.extensions.ccp-disco.innerContainer",
+      "extensions.ticketmaster.innerContainer",
+      "attractions.extensions.omniture.innerContainer",
+      "attractions[0].extensions.omniture.innerContainer",
+      "venue.extensions.ticketmaster.innerContainer",
+      "attractions[0].extensions.ccp-disco.innerContainer",
+      "venue.extensions.wikipedia.innerContainer",
+      "attractions.extensions.ticketmaster.innerContainer",
+      "attractions[0].extensions.ticketmaster.innerContainer",
+      "extensions.entitlements.innerContainer",
+      "venue.extensions.omniture.innerContainer"
+    ]
+  },
+  "relationships": [
+    {
+      "id": "Z7r9jZ1AebEow",
+      "type": "canonical",
+      "references": {
+        "ticketmaster-us": "0900566C987723AE",
+        "TMR": "2627472"
+      }
+    }
+  ],
+  "discoverable": true,
+  "images": [
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RETINA_LANDSCAPE_16_9.jpg",
+      "width": 1136,
+      "height": 639,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "width": 2048,
+      "height": 1152,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_TABLET_LANDSCAPE_3_2.jpg",
+      "width": 1024,
+      "height": 683,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RETINA_PORTRAIT_16_9.jpg",
+      "width": 640,
+      "height": 360,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_TABLET_LANDSCAPE_16_9.jpg",
+      "width": 1024,
+      "height": 576,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RETINA_PORTRAIT_3_2.jpg",
+      "width": 640,
+      "height": 427,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "4_3",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_CUSTOM.jpg",
+      "width": 305,
+      "height": 225,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RECOMENDATION_16_9.jpg",
+      "width": 100,
+      "height": 56,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_EVENT_DETAIL_PAGE_16_9.jpg",
+      "width": 205,
+      "height": 115,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    },
+    {
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_ARTIST_PAGE_3_2.jpg",
+      "width": 305,
+      "height": 203,
+      "fallback": false,
+      "domains": [
+        "ticketmaster.com.au",
+        "concerts.livenation.com",
+        "discovery",
+        "ticketmaster.ca",
+        "ticketmaster.com.mx",
+        "ticketmaster.com",
+        "ticketmaster.co.nz"
+      ]
+    }
+  ],
+  "sales": {
+    "public": {
+      "startDateTime": "2019-03-15T17:00:00Z",
+      "startTBD": false,
+      "endDateTime": "2019-08-17T02:00:00Z"
+    },
+    "presales": [
+      {
+        "startDateTime": "2019-03-15T17:00:00Z",
+        "endDateTime": "2019-08-17T02:00:00Z",
+        "name": "Official Platinum",
+        "visible": true
+      }
+    ]
+  },
+  "dates": {
+    "start": {
+      "localDate": "2019-08-16",
+      "localTime": "19:00:00",
+      "dateTime": "2019-08-17T02:00:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+    },
+    "timezone": "America/Los_Angeles",
+    "status": {
+      "code": "onsale"
+    },
+    "spanMultipleDays": false
+  },
+  "publicVisibility": {
+    "startDateTime": "2019-03-13T17:00:00Z",
+    "endDateTime": "2019-08-17T06:59:59Z",
+    "visible": true
+  },
+  "classifications": [
+    {
+      "primary": true,
+      "segment": {
+        "id": "KZFzniwnSyZfZ7v7nE",
+        "name": "Sports"
+      },
+      "genre": {
+        "id": "KnvZfZ7vAde",
+        "name": "Basketball"
+      },
+      "subGenre": {
+        "id": "KZazBEonSMnZfZ7vFJ6",
+        "name": "Men Professional"
+      },
+      "type": {
+        "id": "KZAyXgnZfZ7v7l1",
+        "name": "Group"
+      },
+      "subType": {
+        "id": "KZFzBErXgnZfZ7vA7d",
+        "name": "Team"
+      },
+      "family": false
+    }
+  ],
+  "promoter": {
+    "id": "829",
+    "name": "CONCERTS WEST (AEG)",
+    "description": "CONCERTS WEST (AEG) / NTL / USA"
+  },
+  "promoters": [
+    {
+      "id": "829",
+      "name": "CONCERTS WEST (AEG)",
+      "description": "CONCERTS WEST (AEG) / NTL / USA"
+    }
+  ],
+  "priceRanges": [
+    {
+      "type": "standard",
+      "currency": "USD",
+      "min": 25,
+      "max": 400
+    }
+  ],
+  "domain": "ticketmaster.com",
+  "isPubliclyVisible": true,
+  "seatmap": {
+    "staticUrl": "https://s1.ticketm.net/tmimages/venue/maps/la1/30154s.gif"
+  },
+  "accessibility": {
+    "info": "Accessible seating is available to those with mobility disabilities who require accessible seating because of their disability, at most price levels"
+  },
+  "ticketLimit": {
+    "info": "There is an overall 10 ticket limit for this event."
+  },
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/events/vv170Z4JGkwbqwCm?locale=en-us"
+    },
+    "attractions": [
+      {
+        "href": "/discovery/v2/attractions/K8vZ9171jMf?locale=en-us"
+      }
+    ],
+    "venues": [
+      {
+        "href": "/discovery/v2/venues/KovZpakTme?locale=en-us"
+      }
+    ]
+  },
+  "_embedded": {
+    "venues": [
+      {
+        "name": "Honda Center",
+        "active": true,
+        "type": "venue",
+        "id": "KovZpakTme",
+        "test": false,
+        "url": "https://www.ticketmaster.com/honda-center-tickets-anaheim/venue/73797",
+        "source": {
+          "name": "ticketmaster",
+          "id": "dataAdmin-venue-0000000000028654"
+        },
+        "references": {
+          "ticketmaster-us": "73797"
+        },
+        "locale": "en-us",
+        "extensions": {
+          "ticketmaster": {
+            "host": {
+              "venueNumber": 69,
+              "host": "LA1"
+            }
+          }
+        },
+        "lastUpdate": 1552594894099,
+        "relationships": [
+          {
+            "id": "Zkr9jZ1eeE",
+            "type": "canonical",
+            "references": {
+              "TMR": "91"
+            }
+          }
+        ],
+        "discoverable": true,
+        "images": [
+          {
+            "ratio": "3_1",
+            "url": "https://s1.ticketm.net/dam/v/35d/22f9a70a-b75f-44a4-8f59-ff1899b4735d_391271_SOURCE.jpg",
+            "width": 1500,
+            "height": 500,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dbimages/21587v.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false,
+            "domains": [
+              "discovery"
+            ]
+          },
+          {
+            "ratio": "3_1",
+            "url": "https://s1.ticketm.net/dam/v/35d/22f9a70a-b75f-44a4-8f59-ff1899b4735d_391271_SOURCE.jpg",
+            "width": 1500,
+            "height": 500,
+            "fallback": false,
+            "domains": [
+              "discovery"
+            ]
+          }
+        ],
+        "postalCode": "92806",
+        "timezone": "America/Los_Angeles",
+        "city": {
+          "name": "Anaheim"
+        },
+        "state": {
+          "name": "California",
+          "stateCode": "CA"
+        },
+        "country": {
+          "name": "United States Of America",
+          "countryCode": "US"
+        },
+        "address": {
+          "line1": "2695 E. Katella"
+        },
+        "location": {
+          "longitude": "-117.87653112",
+          "latitude": "33.80780364"
+        },
+        "markets": [
+          {
+            "name": "Los Angeles",
+            "id": "27"
+          }
+        ],
+        "dmas": [
+          {
+            "id": 223
+          },
+          {
+            "id": 324
+          },
+          {
+            "id": 354
+          },
+          {
+            "id": 383
+          }
+        ],
+        "social": {
+          "twitter": {
+            "handle": "@HondaCenter"
+          }
+        },
+        "boxOfficeInfo": {
+          "phoneNumberDetail": "(714) 704-2500",
+          "openHoursDetail": "Mon-Fri: 10am-5pm, Saturday: 10am-4pm. On event Sundays box office opens 3 hours prior to the start of the event.",
+          "acceptedPaymentDetail": "Cash, Visa, AMX, and MC accepted at box office.",
+          "willCallDetail": "Location: Box Office Hours: 1 hour before event begins, closes 1 hour after start of event. Anaheim Ducks games: 1 1/2 hours before game begins, closes 1 hour after start of game"
+        },
+        "parkingDetail": "General Parking: $20.00 for concerts and special events, $15.00 for all other events Preferred Parking (if available): $25.00 Limo Parking: $40.00 R.V. Parking: $30.00 Bus & Bus Shuttle (unlimited drop-off and pick-up for an event): $30.00",
+        "accessibleSeatingDetail": "Wheelchair accessible seating is available in most areas of Honda Center including Plaza, Terrace and Club. Availability of locations is dependent upon event seating configuration. For availability and exact locations based on a particular event, please contact the Honda Center box office at (714) 704-2500 or Ticketmaster by calling (800) 745-3000, by visiting a Ticketmaster Retail Outlet, or by requesting tickets online. Hearing Impaired Guests: Assistive listening devices are available, with a picture ID as a deposit, at the Guest Services Desk located at Section 215. Sign Language Interpreters can be provided by Honda Center. Request must be received at least 48 hours (business days) prior to the event you are attending. For details, please call (714) 704-2431 or (714) 704-2441.",
+        "generalInfo": {
+          "generalRule": "Non-smoking venue, shirt & shoes required! No audio or recording devices! No backpacks, large bags, bottles, cans, food, drinks, strollers, weapons or fireworks! **CAMERA POLICY VARIES BY EVENT** PROFESSIONAL CAMERAS ARE NOT ALLOWED. PLEASE CONTACT BOX OFFICE AT 714-704-2500 FOR MORE INFO.",
+          "childRule": "Children 23 months and under are free, if on parents lap. 2 yrs old and over must have a ticket."
+        },
+        "upcomingEvents": {
+          "_total": 148,
+          "tmr": 91,
+          "ticketmaster": 57
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/venues/KovZpakTme?locale=en-us"
+          }
+        }
+      }
+    ],
+    "attractions": [
+      {
+        "name": "USA Basketball",
+        "active": true,
+        "type": "attraction",
+        "id": "K8vZ9171jMf",
+        "test": false,
+        "url": "https://www.ticketmaster.com/usa-basketball-tickets/artist/873991",
+        "source": {
+          "name": "ticketmaster",
+          "id": "dataAdmin-attraction-000000000029cdd4"
+        },
+        "references": {
+          "ticketmaster-tat": "5565",
+          "ticketmaster-us": "873991",
+          "ticketmaster-uk": "873991"
+        },
+        "locale": "en-us",
+        "extensions": {
+          "ticketmaster": {
+            "tat": {
+              "minorCategoryId": 206,
+              "id": "5565",
+              "majorCategoryId": 8196
+            }
+          }
+        },
+        "lastUpdate": 1560410380138,
+        "relationships": [
+          {
+            "id": "ZFr9jZd176",
+            "type": "canonical",
+            "references": {
+              "TMR": "2936"
+            }
+          }
+        ],
+        "discoverable": true,
+        "domains": [
+          "ticketmaster.com.au",
+          "ticketmaster.ie",
+          "ticketmaster.ca",
+          "ticketmaster.co.uk",
+          "ticketmaster.com.mx",
+          "livenation.com",
+          "ticketmaster.com",
+          "ticketmaster.co.nz"
+        ],
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/ae6/62aea0eb-6eb1-47f5-a53a-361bab0caae6_538521_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false,
+            "domains": [
+              "ticketmaster.com.au",
+              "concerts.livenation.com",
+              "discovery",
+              "ticketmaster.ca",
+              "ticketmaster.com.mx",
+              "ticketmaster.com",
+              "ticketmaster.co.nz"
+            ]
+          }
+        ],
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nE",
+              "name": "Sports"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAde",
+              "name": "Basketball"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vFJ6",
+              "name": "Men Professional"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7l1",
+              "name": "Group"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7vA7d",
+              "name": "Team"
+            },
+            "family": false
+          }
+        ],
+        "upcomingEvents": {
+          "_total": 9,
+          "tmr": 3,
+          "ticketmaster": 6
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ9171jMf?locale=en-us"
+          }
+        }
+      }
+    ]
+  }
+}
