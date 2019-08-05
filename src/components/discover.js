@@ -10,29 +10,32 @@ class Discover extends Component {
       this.state = {
         results: [ ],
         displayResults: false,
-        secureFlag: false
-      }
+        secureFlag: false,
+        eventID: ''
+      } 
     }
-    
-    handleInput = event => {
-      this.setState({ eventID: event.target.value})
-    };
 
+    handleChange = event => {
+      this.setState({eventID: event.target.value});
+    }
 
-    /* Performs AJAX call to TM Discovery API */
-    componentDidMount() {
-    
+    handleSubmit = event => {
+      // Stop the browser from reloading the page
+      event.preventDefault();
+
+      let id = this.state.eventID
       let apikey = 'o6dBO7FUqTVE1t9zbBIjBm0hNVg9G19a' 
-      let url = 'https://app.ticketmaster.com/discovery/v2/events/vv170Z4JGkwbqwCm.json?includePast=yes&apikey='+apikey+'&extensions=ticketmaster&view=internal&clientVisibility=harrypotter,public,presence'
+      let url = 'https://app.ticketmaster.com/discovery/v2/events/ticketmaster-us/'+id+'.json?includePast=yes&apikey='+apikey+'&extensions=ticketmaster&view=internal&clientVisibility=harrypotter,public,presence'
+      console.log(url)
       axios.get(url)
         .then(res => {
           const data = res.data;
-          this.setState({results: data, secureFlag: data.extensions.ticketmaster.secureEntry.retEnabled});
+          this.setState({results: data, secureFlag: data.extensions.ticketmaster.secureEntry.retEnabled, displayResults: true});
         })
-    }
-
-    handleClick = () => { /* This needs to take what's in the text field and display its results */
-      this.setState({displayResults: true});
+        .catch(function (error) {
+            alert(error)
+        });
+      
     }
     
     render() {
@@ -58,6 +61,7 @@ class Discover extends Component {
       }
       return (
         <div>
+          <form onSubmit={this.handleSubmit}>
             <Row>
               <Column
                 large={3}
@@ -67,8 +71,10 @@ class Discover extends Component {
                 <Input
                   label='Event'
                   name='eventid'
+                  type='text'
                   placeholder='Event Static ID'
                   size='large'
+                  onChange={this.handleChange}
                 /> 
           </Column>  
       </Row>
@@ -79,9 +85,10 @@ class Discover extends Component {
               medium={2}
               xLarge={2}
             >
-              <Button variant='special' size='regular' onClick={this.handleClick}>Discover</Button>
+              <Button variant='special' size='regular' type='submit'>Discover</Button>
             </Column>
           </Row>
+          
           <Spacing top={{"xSmall":"normal"}} />
           <Row>
             <Column
@@ -92,6 +99,7 @@ class Discover extends Component {
               {response}
               </Column>`
           </Row>
+          </form>
         </div>
       )
   }
